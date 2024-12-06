@@ -17,7 +17,7 @@ sections = [
   { id = "rss_templates", name = "RSS templates" }
 ]
 +++
-
+<p></p>
 <h3 class="clr-sky">Template <span class="clr-sky" style="margin-left:20px;">Fundamentals</span></h3>
 <h1 class="pg-heading" >Introduction to Templating</h1>
 <hr>

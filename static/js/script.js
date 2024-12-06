@@ -11,3 +11,4 @@ sidebarLinks.forEach(link => {
     link.classList.add('active');
   }
 });
+console.log("helo");
