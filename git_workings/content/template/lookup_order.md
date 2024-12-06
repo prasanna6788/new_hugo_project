@@ -24,7 +24,7 @@ sections = [
 <p class="pg-sub-hd">Create templates to render your content, resources, and data.<p>
 <section id="lookup_rules">
 <h1 class="f-s25"> Lookup rules</h1>
-<p class="f-s15">Hugo takes the parameters listed below into consideration when choosing a template for a given page. The templates are ordered by specificity. This should feel natural, but look at the table below for concrete examples of the different parameter variations.</p>
+<p class="f-s15">Hugo takes the parameters listed below into consideratddion when choosing a template for a given page. The templates are ordered by specificity. This should feel natural, but look at the table below for concrete examples of the different parameter variations.</p>
 <h1 class="f-s15"><b>Kind<b></h1>
 <p class="f-s15">
 The page Kind (the home page is one). See the example tables below per kind. This also determines if it is a single page (i.e. a regular content page. We then look for a template in _default/single.html for HTML) or a list page (section listings, home page, taxonomy lists, taxonomy terms. We then look for a template in _default/list.html for HTML).

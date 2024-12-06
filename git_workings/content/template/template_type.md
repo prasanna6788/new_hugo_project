@@ -24,7 +24,7 @@ sections = [
 +++
 
 <section id="template type">
-        <div><h3 class="clr-sky">Template</h3>
+        <div><h3 class="clr-sky">Template 4554</h3>
 <h1 class="pg-heading " >Template</h1>
 <hr>
 <p class="pg-sub-hd">Create templates of different types to render your content, resources,<br> and data.

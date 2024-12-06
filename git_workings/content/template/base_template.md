@@ -84,7 +84,7 @@ sections = [
 <div class="container-code-sec">
 <pre class="f-10">
 
-    <!-- Seemingly harmless HTML comment..that will break your layout
+    <!-- Seemingly harmless HTML comment..that will break your layoutww
      at build -->
     {{ define "main" }}
     ...your code here

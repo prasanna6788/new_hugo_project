@@ -28,7 +28,7 @@ sections = [
 use variables , functions, and methods to transform your content, resources, and data 
 into a published page</p>
 <div class="container-sd-sec">
-   <p class="f-s15">Hugo uses Go’s text/template and html/template packages.<br>
+   <p class="f-s15">Hugo uses Go’s text/template and html/template packagedes.<br>
        The text/template package implements data-driven templates for generating 
        textual output, while the html/template package implements data-driven <br>
        templates for generating HTML output safe against code injection.<br>
