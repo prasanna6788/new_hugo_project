@@ -1,0 +1,11 @@
+{{define "content" }}
+    {{ .Content }}
+    <section>
+        <h2>See also</h2>
+        <ul class="ml-30">
+          {{ range .Site.RegularPages.Related .}}
+                <li ><a class="f-10 clr-sky" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+{{end}}

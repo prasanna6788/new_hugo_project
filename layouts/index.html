@@ -1,0 +1,14 @@
+{{define "content"}}
+<div class="container-section">
+  <h1 class="head-fsize">{{.Title}}</h1>
+    <div>{{.Content}}</div>
+    {{ range where (where .Site.Pages "Section" "template") ".Kind" "page" }}
+    <div class="card-section">
+      <h2 class="clr-sky-blue"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p class="clr-gray">{{ .Description }}</p>
+      <p class="clr-sky-blue"><a href="{{ .Permalink }}">Read More>></a></p>
+    </div>
+  {{ end }}  
+</div>
+{{end}}
+

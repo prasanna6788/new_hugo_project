@@ -1,0 +1,19 @@
+<div class="pagi">
+  <!-- Check if there is a previous page -->
+  {{ with .Next }}
+    <a class="fs25 clr-sky mr-tb " href="{{ .Permalink }}"> < </a>
+  {{ end }}
+
+  <!-- Check if there is a next page -->
+  {{ with .Prev }}
+    <a class="fs25 clr-sky mrg-lt ml-50" href="{{ .Permalink }}"> > </a>
+{{ end }}
+</div>
+<h3 class="ul-hd">On this page</h3>
+<ul class="ul-points">
+  {{ range .Params.sections.sections }}
+    <li>
+      <a class="f-10 clr-sky" href="#{{ .id }}">{{ .name }}</a>
+    </li>
+  {{ end }}
+</ul>
